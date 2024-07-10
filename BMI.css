@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(BMI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:"Montserrat", sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.container{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 450px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(20px);
+    background: transparent;
+}
+h1{
+    margin-left: 12px;
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+    color: rgb(0, 0, 0);
+}
+.input-box input{
+    margin: 6px;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    align-items: center;
+}
+.input-box input::placeholder{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.results{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 280px;
+    height: 40px;
+}
+.results h2{
+    color: black;
+    font-size: 1.4rem;
+}
+#results{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    margin: 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.guide h2{
+    font-size: 1.5rem;
+    margin-left: 23px;
+}
+.guide p{
+    margin-left: 23px;
+    margin-top: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
